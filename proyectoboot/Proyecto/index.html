@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="img/huella.avif" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="py-3">
+        <h1 class=" menu text-center fs-4 text-uppercase">Refugio para animalitos</h1>
+        <h1 class=" menu text-center fs-0 text-uppercase "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paw-filled" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 10c-1.32 0 -1.983 .421 -2.931 1.924l-.244 .398l-.395 .688a50.89 50.89 0 0 0 -.141 .254c-.24 .434 -.571 .753 -1.139 1.142l-.55 .365c-.94 .627 -1.432 1.118 -1.707 1.955c-.124 .338 -.196 .853 -.193 1.28c0 1.687 1.198 2.994 2.8 2.994l.242 -.006c.119 -.006 .234 -.017 .354 -.034l.248 -.043l.132 -.028l.291 -.073l.162 -.045l.57 -.17l.763 -.243l.455 -.136c.53 -.15 .94 -.222 1.283 -.222c.344 0 .753 .073 1.283 .222l.455 .136l.764 .242l.569 .171l.312 .084c.097 .024 .187 .045 .273 .062l.248 .043c.12 .017 .235 .028 .354 .034l.242 .006c1.602 0 2.8 -1.307 2.8 -3c0 -.427 -.073 -.939 -.207 -1.306c-.236 -.724 -.677 -1.223 -1.48 -1.83l-.257 -.19l-.528 -.38c-.642 -.47 -1.003 -.826 -1.253 -1.278l-.27 -.485l-.252 -.432c-1.011 -1.696 -1.618 -2.099 -3.053 -2.099z" stroke-width="0" fill="currentColor" />
+            <path d="M19.78 7h-.03c-1.219 .02 -2.35 1.066 -2.908 2.504c-.69 1.775 -.348 3.72 1.075 4.333c.256 .109 .527 .163 .801 .163c1.231 0 2.38 -1.053 2.943 -2.504c.686 -1.774 .34 -3.72 -1.076 -4.332a2.05 2.05 0 0 0 -.804 -.164z" stroke-width="0" fill="currentColor" />
+            <path d="M9.025 3c-.112 0 -.185 .002 -.27 .015l-.093 .016c-1.532 .206 -2.397 1.989 -2.108 3.855c.272 1.725 1.462 3.114 2.92 3.114l.187 -.005a1.26 1.26 0 0 0 .084 -.01l.092 -.016c1.533 -.206 2.397 -1.989 2.108 -3.855c-.27 -1.727 -1.46 -3.114 -2.92 -3.114z" stroke-width="0" fill="currentColor" />
+            <path d="M14.972 3c-1.459 0 -2.647 1.388 -2.916 3.113c-.29 1.867 .574 3.65 2.174 3.867c.103 .013 .2 .02 .296 .02c1.39 0 2.543 -1.265 2.877 -2.883l.041 -.23c.29 -1.867 -.574 -3.65 -2.174 -3.867a2.154 2.154 0 0 0 -.298 -.02z" stroke-width="0" fill="currentColor" />
+            <path d="M4.217 7c-.274 0 -.544 .054 -.797 .161c-1.426 .615 -1.767 2.562 -1.078 4.335c.563 1.451 1.71 2.504 2.941 2.504c.274 0 .544 -.054 .797 -.161c1.426 -.615 1.767 -2.562 1.078 -4.335c-.563 -1.451 -1.71 -2.504 -2.941 -2.504z" stroke-width="0" fill="currentColor" />
+          </svg> Patitas felices <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paw-filled" width="68" height="68" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 10c-1.32 0 -1.983 .421 -2.931 1.924l-.244 .398l-.395 .688a50.89 50.89 0 0 0 -.141 .254c-.24 .434 -.571 .753 -1.139 1.142l-.55 .365c-.94 .627 -1.432 1.118 -1.707 1.955c-.124 .338 -.196 .853 -.193 1.28c0 1.687 1.198 2.994 2.8 2.994l.242 -.006c.119 -.006 .234 -.017 .354 -.034l.248 -.043l.132 -.028l.291 -.073l.162 -.045l.57 -.17l.763 -.243l.455 -.136c.53 -.15 .94 -.222 1.283 -.222c.344 0 .753 .073 1.283 .222l.455 .136l.764 .242l.569 .171l.312 .084c.097 .024 .187 .045 .273 .062l.248 .043c.12 .017 .235 .028 .354 .034l.242 .006c1.602 0 2.8 -1.307 2.8 -3c0 -.427 -.073 -.939 -.207 -1.306c-.236 -.724 -.677 -1.223 -1.48 -1.83l-.257 -.19l-.528 -.38c-.642 -.47 -1.003 -.826 -1.253 -1.278l-.27 -.485l-.252 -.432c-1.011 -1.696 -1.618 -2.099 -3.053 -2.099z" stroke-width="0" fill="currentColor" />
+            <path d="M19.78 7h-.03c-1.219 .02 -2.35 1.066 -2.908 2.504c-.69 1.775 -.348 3.72 1.075 4.333c.256 .109 .527 .163 .801 .163c1.231 0 2.38 -1.053 2.943 -2.504c.686 -1.774 .34 -3.72 -1.076 -4.332a2.05 2.05 0 0 0 -.804 -.164z" stroke-width="0" fill="currentColor" />
+            <path d="M9.025 3c-.112 0 -.185 .002 -.27 .015l-.093 .016c-1.532 .206 -2.397 1.989 -2.108 3.855c.272 1.725 1.462 3.114 2.92 3.114l.187 -.005a1.26 1.26 0 0 0 .084 -.01l.092 -.016c1.533 -.206 2.397 -1.989 2.108 -3.855c-.27 -1.727 -1.46 -3.114 -2.92 -3.114z" stroke-width="0" fill="currentColor" />
+            <path d="M14.972 3c-1.459 0 -2.647 1.388 -2.916 3.113c-.29 1.867 .574 3.65 2.174 3.867c.103 .013 .2 .02 .296 .02c1.39 0 2.543 -1.265 2.877 -2.883l.041 -.23c.29 -1.867 -.574 -3.65 -2.174 -3.867a2.154 2.154 0 0 0 -.298 -.02z" stroke-width="0" fill="currentColor" />
+            <path d="M4.217 7c-.274 0 -.544 .054 -.797 .161c-1.426 .615 -1.767 2.562 -1.078 4.335c.563 1.451 1.71 2.504 2.941 2.504c.274 0 .544 -.054 .797 -.161c1.426 -.615 1.767 -2.562 1.078 -4.335c-.563 -1.451 -1.71 -2.504 -2.941 -2.504z" stroke-width="0" fill="currentColor" />
+          </svg></h1>
+    </header>
+    <div class="bg-success p-3 text-white px-3 ">
+        <div class="navbar navbar-expand-lg container navbar-light">
+            <a class="navbar-brand menu d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
+                Refugio animal
+            </a>
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
+                    <a class="menu text-decoration-none" href="index.html">Inicio</a>
+                    <a class="menu text-decoration-none" href="Donaciones.html">Donaciones</a>
+                    <a class="menu text-decoration-none" href="Adopta.html">Adopta</a>
+                    <a class="menu text-decoration-none" href="Contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div>
+                <img class=" hero " src="/Proyecto/img/perroygato.jpeg" alt="imagen en curso" />
+                <div class="left-0 text-center p-5 ">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-lower inicio">Bienvenido</span>
+                    </h2>
+                    <p class="mb-4 inicio">Patitas felices te invita a explorar su pagina web, para que dentro de ella
+                    puedas encontrar las distintas opciones con las que contamos y dentro de las que tu 
+                    podrías formar parte! </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <div class="container pading-nosotros">
+            <div class="left-0 text-center p-5 ">
+                <h2 class="section-heading mb-4">
+                    <span class="section-heading-upper inicio">Sobre</span>
+                    <span class="section-heading-lower inicio">Nosotros</span>
+                </h2>
+                <p class="mb-4 inicio">Somos un refugio dedicado a brindar una segunda oportunidad a animales abandonados 
+                            y maltratados. Ofrecemos un ambiente seguro y amoroso donde los animales reciben la atención veterinaria y el cuidado que necesitan hasta encontrar un hogar definitivo. ¡Únete a nuestra misión y ayúdanos a construir un futuro mejor para ellos! </p>
+            </div>
+        </div>
+    </section>
+    <section class="page-section cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner bg-faded text-center rounded">
+                        <p class="mb-0">"No sabemos nada realmente del amor si no queremos a los animales."<p>
+                            <p>- Fred Wander -</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <img src="img/conejo.jpeg" alt="imagen curso">
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <img src="img/perro.jpeg" alt="imagen curso">
+                </div>
+            <div class="col-sm-6 col-md-4">
+                <img  src="img/gato.jpeg" alt="imagen curso">
+            </div>
+
+        </div>
+    </div>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 px-3 margen">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 mx-auto">
+                            <div class="cta-inner bg-faded text-center rounded">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Nuestra</span>
+                                    <span class="section-heading-lower">mision</span>
+                                </h2>
+                                <p class="mb-0">"Brindar un hogar temporal, amor y cuidados a animales abandonados,
+                                     maltratados o en riesgo, hasta encontrarles una familia responsable que los ame para siempre."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 px-3 margen">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 mx-auto">
+                            <div class="cta-inner bg-faded text-center rounded">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Nuestra</span>
+                                    <span class="section-heading-lower">vision</span>
+                                </h2>
+                                <p class="mb-0">"Transformar la vida de los animales y las personas a través de 
+                                    la adopción responsable y la educación sobre el bienestar animal."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer text-faded   py-5 ">
+        <div class="container"><p class="m-0 small">Animal &copy; Mi pagina 2024</p></div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

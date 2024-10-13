@@ -1,0 +1,205 @@
+:root{
+    --bs-blue: #037BA5;
+    --bs-white: #fff;
+    --bs-border-radius: 0.375rem;
+    --bs-border-radius-sm: 0.25rem;
+    --bs-border-radius-lg: 0.5rem;
+    --bs-border-radius-xl: 1rem;
+    --bs-border-radius-2xl: 2rem;
+    --bs-border-radius-pill: 50rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Ralewat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1,h2, h3{
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+@media(min-width: 768px){
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+.text-primary {
+    color: var(--bs-blue) !important;
+}
+
+.menu{
+    color: var(--bs-white) !important;
+    font-family: cursive
+}
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/fondo.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.hero{
+
+    width: 50%;
+    float: right;
+    
+}
+
+.section-heading {
+    text-transform: uppercase;
+    
+  }
+  .section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+  .inicio{
+    background-color: beige;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+  
+  .footer {
+    background-color: rgba(47, 23, 15, 0.9);
+  }
+  .text-faded {
+    color: #f6e1c5;
+  }
+ 
+  .page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #055160;
+  }
+
+  .cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+  }
+
+  .bg-faded {
+    background-color: #f6e1c5;
+  }
+  .rounded {
+    border-radius: var(--bs-border-radius) !important;
+  }
+ 
+  .animales{
+    width: 425px;
+    height: 250px;
+
+  }
+
+  .margen{
+    padding: 5rem;
+  }
+  .pading-nosotros{
+
+    padding:3rem;
+  }
+  .nombre-animal{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .text-animal
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  .boton
+  {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  }
+
+  .d-flex {
+    display: flex !important;
+  }
+
+  .product-item-description 
+  {
+    position: relative;
+    z-index: 1;
+    margin-top: -3rem;
+    max-width: 50vw;
+  }
+
+.img-donacion
+{
+  width: 70%;
+  position: relative;
+  border-radius: var(--bs-border-radius) !important;
+}
+.cuenta
+{
+  background-color: rgb(54, 171, 216);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.rounded 
+{
+  border-radius: var(--bs-border-radius) !important;
+}
+
+.contenedor-boton 
+{
+  float:right; 
+}
+
+.img-contacto
+{
+  background-image: url("../img/contacto.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  text-align:center;
+  font-size: 25px;
+  color: #fff;
+  padding: 20rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-contacto
+{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.formulario-contacto
+{
+  background-color: rgb(181, 181, 129);
+    padding: 2rem;
+    border-radius:.5rem;
+}
+.margin-contacto
+{
+  margin: 5rem;
+  background-color: #2d9eb4;
+}
